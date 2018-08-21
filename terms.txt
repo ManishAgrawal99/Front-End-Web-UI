@@ -1,0 +1,32 @@
+<div class="container"> ...
+
+<div class="row"> ...
+
+<header class="jumbotron"> ... 
+
+<div class="col-12 col-sm-6"> ... </div>
+
+      <div class="col-12 col-sm"> ... </div>
+
+<div class="col-auto"> ... </div>
+
+<div class="col-12 col-sm-4 order-sm-last col-md-3"> ... </div>
+<div class="col-4 offset-1 col-sm-2">
+
+
+ <ul class="list-unstyled"> ... </ul>
+
+
+align items vertically
+<div class="align-items-center">
+
+<div class="align-self-center">
+
+
+align items horizontally
+<div class="row justify-content-center">        
+<div class="col-auto">
+
+centering the  elements
+<div class="text-center">
+
