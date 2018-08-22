@@ -30,3 +30,17 @@ align items horizontally
 centering the  elements
 <div class="text-center">
 
+
+Information Architecture
+Structure of a system with respect to the way the info is
+-organized
+-labelled
+-navigation methods provided to access the info
+
+
+Breadcrumbs
+A sort of secondary navigation that displays the hierarchy of the of the page's location
+
+
+
+ 
