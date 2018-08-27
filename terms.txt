@@ -328,3 +328,31 @@ Add a CSS attribute to ive the tabs an enclosing
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+
+
+__________________________________________________________________
+Accordion
+
+Create a parent div
+<div id="accordion">
+      . . .
+</div>
+
+
+Create individual collapsable cards by using
+<div class="card">
+<div class="card-header" role="tab" id="peterhead">
+<h3 class="mb-0">
+      <a data-toggle="collapse" data-target="#peter">
+      Peter Pan <small>Chief Epicurious Officer</small>
+      </a>
+</h3>
+</div>
+<div class="collapse show" id="peter" data-parent="#accordion">
+      <div class="card-body">
+            <p class="d-none d-sm-block">. . .</p>
+      </div>
+</div>
+</div>
+
+For others remove the class show
