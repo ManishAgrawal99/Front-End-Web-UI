@@ -63,3 +63,13 @@ Use social buttons by
     <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
     <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
 </div>
+
+
+_________________________________________________________________
+
+Add the less npm module
+
+npm install -g less@2.7.2
+
+To convert the less file into corresponding css file
+lessc styles.less styles.css

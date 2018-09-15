@@ -500,4 +500,51 @@ Also add the CSS
     min-height: 300px;
 }
 
+________________________________________________________________
+
+LESS & SASS
+
+These are the preprocessors that are used to give the CSS a more programming like syntax
+These are used to define variables and other programming features like nesting
+Before the CSS is rendered the SASS is converted into CSS
+The bootstrap 4 is also mainly built on SASS
+
+Defining Variables
+
+Less                                                  SASS
+@It-gray: #ddd;                                       $It-gray: #ddd; 
+@background-dark:#512DA8;                              #background-dark:#512DA8;
+
+
+making use of theses variables
+.navbar-inverse{                                      .navbar-inverse{
+      background:@background-dark;                         background:@background-dark;
+}                                                      }
+
+Variables can also have their own scope
+
+
+A mixin can hold multiple attributes unlike variables
+
+.zero-margin{                                         @mixin zero-margin{
+      margin:0px auto                                       margin:0px auto
+      background: @white;                                   background:@white
+}                                                     }
+    
+A mixin can also take in parameters and use them i its declaration just like functions
+
+These can be called in by using
+@include mixin-name(param1, param2);
+ 
+mathematical operations are also allowed on the variables
+
+
+________________________________________________________________
+
+Add the less npm module
+
+npm install -g less@2.7.2
+
+To convert the less file into corresponding css file
+lessc styles.less styles.css
 
