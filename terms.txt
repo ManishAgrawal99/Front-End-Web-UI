@@ -548,3 +548,16 @@ npm install -g less@2.7.2
 To convert the less file into corresponding css file
 lessc styles.less styles.css
 
+
+Add the sass npm module
+
+npm install --save-dev node-sass@4.7.2
+
+Add a script in the package.json file
+"scss": "node-sass -o css/ css/"
+
+The meaning of the script is that all the scss files in the project will be converted to css and the 
+output of conversion will be stored in the css folder
+
+We need to do the:  npm run scss
+This converts the scss to css
